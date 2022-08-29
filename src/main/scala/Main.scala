@@ -49,7 +49,7 @@ object Main extends App {
         Left(s"The path ${args(0)} doesn't exist")
     } else
       Left(
-        "Not enough arguments. Please use this arguments in this format:\nDatafilePath StartingAvenue StartingStreet EndingAvenue EndingStreet"
+        "Not enough arguments. Please use these arguments in this format:\nDatafilePath StartingAvenue StartingStreet EndingAvenue EndingStreet"
       )
   }
 }
